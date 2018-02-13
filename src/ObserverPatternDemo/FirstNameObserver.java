@@ -1,13 +1,17 @@
 package ObserverPatternDemo;
 
-public class FirstNameObserver implements IObserver {
+public class FirstNameObserver implements IObserver
+{
 	private Student student;
 	
-	public FirstNameObserver() {
+	public FirstNameObserver() 
+	{
 		
 	}
 	
-	public void update(Student student) {		
-		System.out.println("Student's first name is " + student.getFirstName());
+	public void update(Student student)
+	{
+		System.out.println("Student's first name is now " + student.getFirstName());
+		System.out.println();
 	}
 }

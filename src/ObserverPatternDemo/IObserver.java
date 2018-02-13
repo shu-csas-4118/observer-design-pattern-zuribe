@@ -1,5 +1,7 @@
 package ObserverPatternDemo;
 
-public interface IObserver {
+public interface IObserver 
+{
 	void update(Student student);
+	
 }
